@@ -1,21 +1,14 @@
 package Exy.relivingthemoment.client.guistuff;
 
 import Exy.relivingthemoment.Relivingthemoment;
-import Exy.relivingthemoment.client.RelivingthemomentClient;
-import com.mojang.blaze3d.systems.RenderSystem;
-import ladysnake.satin.api.managed.ManagedCoreShader;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.tooltip.TooltipComponent;
-import net.minecraft.client.render.*;
-import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DefaultedList;
-import org.joml.Matrix4f;
 
 public class BeltTooltipComponent implements TooltipComponent {
     public static final Identifier TEXTURE = new Identifier(Relivingthemoment.MODID,"textures/gui/container/belt.png");
