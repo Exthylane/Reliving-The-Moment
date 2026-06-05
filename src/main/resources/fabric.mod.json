@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "relivingthemoment",
+  "version": "${version}",
+  "name": "Reliving The Moment",
+  "description": "A mod made to somewhat rebalance totems by adding extra steps to be able to use them.",
+  "authors": ["Exthylane"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/relivingthemoment/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "Exy.relivingthemoment.client.RelivingthemomentDataGenerator"
+    ],
+    "client": [
+      "Exy.relivingthemoment.client.RelivingthemomentClient"
+    ],
+    "main": [
+      "Exy.relivingthemoment.Relivingthemoment"
+    ]
+  },
+  "mixins": [
+    "relivingthemoment.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "exthylanes_extra_stuff": ">=${ees_version}",
+    "midnightlib": ">=${midnightlib_version}",
+    "trinkets": ">=${trinkets_version}",
+    "modmenu": ">=${mod_menu_version}"
+  },
+  "accessWidener": "relivingthemoment.accesswidener"
+}

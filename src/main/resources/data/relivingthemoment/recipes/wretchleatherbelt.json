@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#H#",
+    "H H",
+    "#HG"
+  ],
+  "key": {
+    "#": {
+      "item": "relivingthemoment:wretchleather"
+    },
+    "H": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "relivingthemoment:wretchleatherbelt"
+  }
+}
